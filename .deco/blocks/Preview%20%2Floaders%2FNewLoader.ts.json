@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"__resolveType":"site/loaders/NewLoader.ts","count":10}
+=======
+{"__resolveType":"site/loaders/NewLoader.ts"}
+>>>>>>> b9777f9 (Add preview command)
