@@ -72,4 +72,4 @@ deno.lock
 # db files
 .config.json
 # Fresh build directory
-_fresh/
+_fresh/**
