@@ -1,1 +1,1 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/NewSection.tsx","name":"My test","returns":{"n":1}},{"__resolveType":"site/sections/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/NewSection.tsx","returns":{"n":1},"name":"Capybara"},{"__resolveType":"site/sections/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
