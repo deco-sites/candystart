@@ -26,7 +26,7 @@
     "bundle": "deno eval 'import \"deco/scripts/apps/bundle.ts\"' site",
     "cache_clean": "rm deno.lock; deno cache -r main.ts",
     "build": "deno task bundle && deno run -A dev.ts build",
-    "preview": "deno run -A --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task start"
+    "preview": "deno run -A --env --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task start"
   },
   "githooks": {
     "pre-commit": "check"
