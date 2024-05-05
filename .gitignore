@@ -76,4 +76,3 @@ _fresh/**
 
 # Deco files
 _docker_deps.ts
-.metadata/changeset.json
