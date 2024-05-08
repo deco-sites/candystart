@@ -6,5 +6,5 @@ interface Props {
 }
 
 export default function Section({ name = "Capy!!!!" }: Props) {
-  return <div>Hello {name}</div>;
+  return <div>Hello world: {name}</div>;
 }
