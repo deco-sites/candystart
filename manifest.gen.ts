@@ -4,7 +4,8 @@
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$0 from "./loaders/NewLoader.ts";
+import * as $$$0 from "./loaders/GithubLoader.ts";
+import * as $$$1 from "./loaders/NewLoader.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/ItWorks.tsx";
 import * as $$$$$$2 from "./sections/NewSection.tsx";
@@ -12,7 +13,8 @@ import * as $$$$$$3 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
-    "site/loaders/NewLoader.ts": $$$0,
+    "site/loaders/GithubLoader.ts": $$$0,
+    "site/loaders/NewLoader.ts": $$$1,
   },
   "sections": {
     "site/sections/Footer.tsx": $$$$$$0,

@@ -1,1 +1,1 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/NewSection.tsx","returns":{"n":1},"name":"Gimenao345"},{"__resolveType":"site/sections/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/NewSection.tsx","returns":{"n":1},"name":"Gimenao345","summary":{"__resolveType":"site/loaders/GithubLoader.ts","org":"deco-cx","repo":"deco"}},{"__resolveType":"site/sections/Footer.tsx"}],"__resolveType":"website/pages/Page.tsx"}
