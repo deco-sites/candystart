@@ -4,7 +4,7 @@ interface Props {
 }
 
 // Importing the necessary types
-type GitHubRepoSummary = {
+export type GitHubRepoSummary = {
   full_name: string;
   description: string;
   html_url: string;
@@ -15,7 +15,10 @@ type GitHubRepoSummary = {
   language: string;
 };
 
-async function fetchGitHubRepoSummary(org: string, repo: string): Promise<GitHubRepoSummary> {
+async function fetchGitHubRepoSummary(
+  org: string,
+  repo: string,
+): Promise<GitHubRepoSummary> {
   const apiUrl = `https://api.github.com/repos/${org}/${repo}`;
   const response = await fetch(apiUrl);
 
@@ -39,6 +42,8 @@ async function fetchGitHubRepoSummary(org: string, repo: string): Promise<GitHub
   return repoSummary;
 }
 
-export default async function loader({ org, repo }: Props): Promise<GitHubRepoSummary> {
-  return await fetchGitHubRepoSummary(org, repo)
+export default async function loader(
+  { org, repo }: Props,
+): Promise<GitHubRepoSummary> {
+  return await fetchGitHubRepoSummary(org, repo);
 }
