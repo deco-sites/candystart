@@ -1,0 +1,13 @@
+{
+  "name": "Workflow Page",
+  "path": "/workflow",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Workflow.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
