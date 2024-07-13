@@ -19,7 +19,7 @@
         "Tobermory.es6-string-html"
     ],
     "postCreateCommand": "gh codespace ports visibility 8000:public -c $CODESPACE_NAME",
-    "postStartCommand": "DECO_ENV_NAME=localhost deno task start",
+    // "postStartCommand": "DECO_ENV_NAME=localhost deno task start",
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
     // Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
