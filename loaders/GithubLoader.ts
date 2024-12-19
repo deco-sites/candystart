@@ -15,7 +15,7 @@ export type GitHubRepoSummary = {
   language: string;
 };
 
-async function fetchGitHubRepoSummary(
+async function fetchGitHu bRepoSummary(
   org: string,
   repo: string,
 ): Promise<GitHubRepoSummary> {
